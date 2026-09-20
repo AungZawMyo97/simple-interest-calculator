@@ -1,0 +1,10 @@
+:root {
+  --paper: #f7f8f7;
+  --white: #ffffff;
+  --ink: #25332b;
+  --green: #304e3b;
+  --muted: #626b65;
+  --line: #dce1dd;
+  --focus: #73957d;
+  color-scheme: light;
+}

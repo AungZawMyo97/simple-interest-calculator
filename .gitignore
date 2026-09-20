@@ -1,0 +1,51 @@
+# Dependencies and generated output
+/node_modules/
+/.next/
+/out/
+/build/
+/dist/
+/coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# Environment variables and local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.keystore
+/secrets/
+/credentials/
+/private/
+.ssh/
+id_rsa
+id_ed25519
+credentials*.json
+service-account*.json
+.npmrc
+
+# Customer data and local databases
+/data/
+/exports/
+/backups/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sql
+
+# Logs, tooling, and OS files
+*.log
+/.vercel/
+/.idea/
+/.vscode/
+/.agents/
+/.codex/
+/test-results/
+/playwright-report/
+.DS_Store
+Thumbs.db
